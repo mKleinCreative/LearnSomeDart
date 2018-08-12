@@ -1,9 +1,9 @@
 import 'dart:async';
-
+// essentially how to create a http request/promise
 main () async {
  	print('about to fetch data..');
   
-  var result = await get('http:/definetlyawebsite.com')
+  var result = await get('http:/definetlyawebsite.com');
     
 }
 
