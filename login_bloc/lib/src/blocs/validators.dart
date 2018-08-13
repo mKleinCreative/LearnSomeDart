@@ -16,7 +16,7 @@ class Validators {
       if (password.length > 3) {
         sink.add(password);
       } else {
-        sink.addError('Please enter atleast 4 characters.')
+        sink.addError('Please enter atleast 4 characters.');
       }
     }
   );
